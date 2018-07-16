@@ -1,5 +1,5 @@
 ## build_upboard_yocto
 
-The branches of this repository build different variants of Yocto OS images for the Upboard
+pyro_rt: This branch builds the PREEMPT_RT version of Yocto Pyro for the Upboard
 
 
