@@ -16,6 +16,6 @@ CORE_IMAGE_EXTRA_INSTALL += "rt-tests"
 DISTRO_FEATURES_append = " systemd virtualization kvm kubernetes"
 VIRTUAL-RUNTIME_init_manager = "systemd"
 IMAGE_INSTALL_append = "  docker docker-contrib connman connman-client"
-PREFERRED_PROVIDER_virtual/kernel = "linux-intel"
-PREFERRED_VERSION_linux-intel = "4.14k%"
+#PREFERRED_PROVIDER_virtual/kernel = "linux-intel"
+#PREFERRED_VERSION_linux-intel = "4.14k%"
 EOF
